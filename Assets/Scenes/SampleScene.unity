@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 0caed09c2e80849bc988a44b59c2c3f9, type: 2}
 --- !u!1 &301439332
 GameObject:
   m_ObjectHideFlags: 0
@@ -140,7 +140,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &301439333
 Transform:
@@ -236,8 +236,8 @@ GameObject:
   m_Name: Sea Rock (2)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &309469961
 Transform:
@@ -333,8 +333,8 @@ GameObject:
   m_Name: Sea Rock (1)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &578580734
 Transform:
@@ -508,6 +508,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: -180, z: 0}
+--- !u!1001 &782763737
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048833562941555458, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_Name
+      value: Piranha (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
 --- !u!1001 &867576452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -700,7 +757,6 @@ GameObject:
   - component: {fileID: 1075810368}
   - component: {fileID: 1075810371}
   - component: {fileID: 1075810370}
-  - component: {fileID: 1075810369}
   m_Layer: 0
   m_Name: Kelp (2)
   m_TagString: Untagged
@@ -723,19 +779,6 @@ Transform:
   m_Father: {fileID: 1034099561}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1075810369
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075810367}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1075810370
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -843,6 +886,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+--- !u!1001 &1175486438
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048833562941555458, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_Name
+      value: Piranha (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
 --- !u!1 &1269151584
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,8 +959,8 @@ GameObject:
   m_Name: Sea Rock
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1269151585
 Transform:
@@ -951,7 +1051,6 @@ GameObject:
   - component: {fileID: 1414502864}
   - component: {fileID: 1414502867}
   - component: {fileID: 1414502866}
-  - component: {fileID: 1414502865}
   m_Layer: 0
   m_Name: Kelp (1)
   m_TagString: Untagged
@@ -974,19 +1073,6 @@ Transform:
   m_Father: {fileID: 1034099561}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1414502865
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414502863}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1414502866
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1048,7 +1134,6 @@ GameObject:
   - component: {fileID: 1422718243}
   - component: {fileID: 1422718246}
   - component: {fileID: 1422718245}
-  - component: {fileID: 1422718244}
   m_Layer: 0
   m_Name: Kelp
   m_TagString: Untagged
@@ -1071,19 +1156,6 @@ Transform:
   m_Father: {fileID: 1034099561}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1422718244
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422718242}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1422718245
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1248,6 +1320,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+--- !u!1001 &1813917101
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048833562941555458, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_Name
+      value: Piranha (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
 --- !u!1 &1903170706
 GameObject:
   m_ObjectHideFlags: 0
@@ -1264,8 +1393,8 @@ GameObject:
   m_Name: Sea Rock (3)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1903170707
 Transform:
@@ -1361,8 +1490,8 @@ GameObject:
   m_Name: Sea Rock (4)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2057527657
 Transform:
@@ -1442,6 +1571,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057527656}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &2093011991
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572133226524891103, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048833562941555458, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
+      propertyPath: m_Name
+      value: Piranha (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ea3687fcb56041fab8a7d6bcd99e425, type: 3}
 --- !u!1001 &3175589844972737703
 PrefabInstance:
   m_ObjectHideFlags: 0
